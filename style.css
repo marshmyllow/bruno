@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body {
-  background: #e8e8e8; |
+  background: #e8e8e8;
   font-family: "Times New Roman";
   font-size: 24px;
 }
@@ -81,7 +81,7 @@ button {
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  background: url(img/Shape\ 2.png) 85% 50% no-repeat;
+  background: url(img/snape.png) 85% 50% no-repeat;
   background-color: #80b7b3;
   color: white;
   font-family: arial;
@@ -105,7 +105,7 @@ button {
 }
 
 ul li {
-  background: url(img/check\ icon.png) left no-repeat;
+  background: url(img/check_icon.png) left no-repeat;
   padding: 0px 0 0 35px;
   margin: 20px 0px;
   font-family: Arial, Helvetica, sans-serif;

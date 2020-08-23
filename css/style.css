@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  background: url(/img/blueline.png) center 15%/70% no-repeat;
+  background: url(img/blueline.png) center 15%/70% no-repeat;
   margin: 100px auto;
   max-width: 1440px;
 }
@@ -81,7 +81,7 @@ button {
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  background: url(/img/Shape\ 2.png) 85% 50% no-repeat;
+  background: url(img/Shape\ 2.png) 85% 50% no-repeat;
   background-color: #80b7b3;
   color: white;
   font-family: arial;
@@ -105,7 +105,7 @@ button {
 }
 
 ul li {
-  background: url(/img/check\ icon.png) left no-repeat;
+  background: url(img/check\ icon.png) left no-repeat;
   padding: 0px 0 0 35px;
   margin: 20px 0px;
   font-family: Arial, Helvetica, sans-serif;

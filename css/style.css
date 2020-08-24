@@ -20,6 +20,7 @@ body {
   background: #e8e8e8;
   font-family: "Times New Roman";
   font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -70,6 +71,18 @@ section {
   color: rgba(39, 61, 70, 0.8);
 }
 
+.red::first-line {
+  color: red;
+}
+
+.redstrouke::first-letter {
+  color: red;
+  font-weight: bold;
+  font-size: 55px;
+
+  padding: 0px 10px 0px 15px;
+}
+
 .list {
   /* background-color: red; */
   margin: 60px 12%;
@@ -81,14 +94,21 @@ button {
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  background: url(/img/snape.png) 85% 50% no-repeat;
   background-color: #80b7b3;
   color: white;
   font-family: arial;
   letter-spacing: 3px;
-  padding: 0px 40px 0px 10px;
   font-weight: 600;
   box-shadow: 0px 0px 50px #80b7b3;
+}
+
+button:after {
+  content: '';
+  display: inline-block;
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+  background: url(/img/snape.png) center no-repeat;
 }
 
 .submit {
@@ -105,11 +125,18 @@ button {
 }
 
 ul li {
-  background: url(/img/check_icon.png) left no-repeat;
-  padding: 0px 0 0 35px;
+  padding: 0 0 0 35px;
   margin: 20px 0px;
   font-family: Arial, Helvetica, sans-serif;
   color: #273d46;
+}
+
+li:before {
+  content: '';
+  background: url(/img/check_icon.png) left no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
 }
 
 .bold {

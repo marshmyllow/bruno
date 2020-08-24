@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  background: url(/img/blueline.png) center 15%/70% no-repeat;
+  background: url(img/blueline.png) center 15%/70% no-repeat;
   margin: 100px auto;
   max-width: 1440px;
   margin-bottom: 50px;
@@ -108,7 +108,7 @@ button:after {
   margin-left: 10px;
   width: 20px;
   height: 10px;
-  background: url(/img/snape.png) center no-repeat;
+  background: url(img/snape.png) center no-repeat;
 }
 
 .submit {
@@ -133,7 +133,7 @@ ul li {
 
 li:before {
   content: '';
-  background: url(/img/check_icon.png) left no-repeat;
+  background: url(img/check_icon.png) left no-repeat;
   display: inline-block;
   width: 40px;
   height: 20px;
